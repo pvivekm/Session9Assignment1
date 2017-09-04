@@ -14,3 +14,6 @@ Typically, there are these types of NoSQL databases:
 	4. Graph stores: 
 		A graph database uses graph structures to store, map, and query relationships. They provide index-free adjacency, so that adjacent elements are linked together without using an index.
 
+3. What is a column family in HBase?
+------------------------------------
+Column family in HBase is a group of columns such that all column members of a column family have the same prefix.
