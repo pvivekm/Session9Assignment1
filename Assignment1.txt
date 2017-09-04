@@ -2,6 +2,8 @@
 ---------------------------
 NoSQL Database is the the database that can handle unstructured data unlike the Relational Database which can handle only structured data. The Relational Databases organize data in form of tables/relations that have columns and rows where each row has unique ID and the ID can be used to relate the data in that row with the data in a row in another table.
 As against the Relational databases, the NoSQL database is not built on tables and does not use SQL to manipulate data. It also may not provide full ACID (atomicity, consistency, isolation, durability) guarantees, but still has a distributed and fault tolerant architecture. The NoSQL dabase supports key-value stores, document store, BigTable, and graph databases.NoSQL database is useful for storing unstructured data, which include user and session data; chat, messaging, and log data; time series data such as IoT and device data; and large objects such as video and images.
+2. How does data get stored in NoSQl database?
+----------------------------------------------
 Typically, there are these types of NoSQL databases:
 	1. Key-value data stores:
 		The Key-Value database processes non-transactional data. Stored values can be any type of binary object (text, video, JSON document, etc.) and are accessed via a key. 
