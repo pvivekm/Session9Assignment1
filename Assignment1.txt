@@ -1,0 +1,14 @@
+1. What is NoSQL data base?
+---------------------------
+NoSQL Database is the the database that can handle unstructured data unlike the Relational Database which can handle only structured data. The Relational Databases organize data in form of tables/relations that have columns and rows where each row has unique ID and the ID can be used to relate the data in that row with the data in a row in another table.
+As against the Relational databases, the NoSQL database is not built on tables and does not use SQL to manipulate data. It also may not provide full ACID (atomicity, consistency, isolation, durability) guarantees, but still has a distributed and fault tolerant architecture. The NoSQL dabase supports key-value stores, document store, BigTable, and graph databases.NoSQL database is useful for storing unstructured data, which include user and session data; chat, messaging, and log data; time series data such as IoT and device data; and large objects such as video and images.
+Typically, there are these types of NoSQL databases:
+	1. Key-value data stores:
+		The Key-Value database processes non-transactional data. Stored values can be any type of binary object (text, video, JSON document, etc.) and are accessed via a key. 
+	2. Document stores:
+		These types of databases store self-describing JSON, XML, and BSON documents. They are similar to key-value stores, but in this case, a value is a single document that stores all data related to a specific key. Popular fields in the document can be indexed to provide fast retrieval without knowing the key. Each document can have the same or a different structure.
+	3. Wide-column stores:
+		Wide-column NoSQL databases store data in tables with rows and columns similar to RDBMS, but names and formats of columns can vary from row to row across the table. Wide-column databases group columns of related data together. A query can retrieve related data in a single operation because only the columns associated with the query are retrieved. In an RDBMS, the data would be in different rows stored in different places on disk, requiring multiple disk operations for retrieval.
+	4. Graph stores: 
+		A graph database uses graph structures to store, map, and query relationships. They provide index-free adjacency, so that adjacent elements are linked together without using an index.
+
