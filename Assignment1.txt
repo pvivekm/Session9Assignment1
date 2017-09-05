@@ -18,5 +18,16 @@ Typically, there are these types of NoSQL databases:
 ------------------------------------
 Column family in HBase is a group of columns such that all column members of a column family have the same prefix. A column family is roughly analogous to a RDBMS table with the rowkey as a clustered primary key index. It is somewhat like  a sub-table within a larger table.
 A column family defines shared features to all columns that are created within them. Physically, all column family members are stored together on the filesystem. All columns families must be created up-front where as columns can be added on the fly.
+4. How many maximum number of columns can be added to HBase table
+------------------------------------------------------------------
+ There is no limit on number of columns in a HBase table
+ 
+5. Why columns are not defined at the time of table creation in HBase?
+---------------------------------------------------------------------
 
+6. How does data get managed in HBase?
+---------------------------------------
+
+7. What happens internally when new data gets inserted into HBase table?
+------------------------------------------------------------------------
 
